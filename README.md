@@ -189,6 +189,8 @@ e.g. System Message
 * **`imageProps`** _(Object)_ - Extra props to be passed to the [`<Image>`](https://facebook.github.io/react-native/docs/image.html) component created by the default `renderMessageImage`
 * **`videoProps`** _(Object)_ - Extra props to be passed to the [`<Video>`](https://github.com/react-native-community/react-native-video) component created by the default `renderMessageVideo`
 * **`lightboxProps`** _(Object)_ - Extra props to be passed to the `MessageImage`'s [Lightbox](https://github.com/oblador/react-native-lightbox)
+* **`renderCustomTopView`** _(Function)_ - Custom view on top of the bubble
+* **`renderCustomBottomView`** _(Function)_ - Custom view at the bottom of the bubble
 * **`renderCustomView`** _(Function)_ - Custom view inside the bubble
 * **`renderDay`** _(Function)_ - Custom day above a message
 * **`renderTime`** _(Function)_ - Custom time inside a message
